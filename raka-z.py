@@ -152,8 +152,8 @@ def raka_amanda():
     ip = requests.get('https://api.ipify.org').text
     print logo
     jalan('___________________________________________________________\n');time.sleep(00.01)
-    jalan(' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(00.01)
-    jalan(' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip);time.sleep(00.01)
+    jalan(' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama));time.sleep(00.01)
+    jalan(' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip));time.sleep(00.01)
     jalan(' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium ');time.sleep(00.01)
     jalan('___________________________________________________________\n');time.sleep(00.01)
     jalan(' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(00.01)
