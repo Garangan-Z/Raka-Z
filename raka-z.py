@@ -162,7 +162,7 @@ def raka_amanda():
     jalan(' [%s4%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Like Postingan'%(O,N);time.sleep(00.01)
     jalan(' [%s5%s]\x1b[1;96m◍➤\x1b[1;97m \x1b[1;92mMulai Crack\x1b[1;97m'%(O,N);time.sleep(00.01)
     jalan(' [%s6%s]\x1b[1;96m◍➤\x1b[1;97m Check Informasi Akun Fb'%(O,N);time.sleep(00.01)
-    jalan(' [%s7%s]\x1b[1;96m◍➤\x1b[1;97m Lihat Hasil Crack'%(O,N);time.sleep(00.p1)
+    jalan(' [%s7%s]\x1b[1;96m◍➤\x1b[1;97m Lihat Hasil Crack'%(O,N);time.sleep(00.01)
     jalan(' [%s8%s]\x1b[1;96m◍➤\x1b[1;97m Settings User Agent'%(O,N);time.sleep(1)
     jalan(' [%s9%s]\x1b[1;96m◍➤\x1b[1;97m Info %sScript%s'%(O,N,O,N);time.sleep(00.01)
     jalan(' [%s0%s]\x1b[1;96m◍➤\x1b[1;97m Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(00.01)
