@@ -118,7 +118,7 @@ def raka_z():
     amanda = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
     if amanda in ('open', 'Open', 'OPEN'):
         print '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
-        print '%s *%s Klick Dikolom pencarian %naciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(2)
+        print '%s *%s Klick Dikolom Pencarian %sGet Cookie'%(B,N,H);time.sleep(2)
         print '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(2)
         print '%s *%s Login Akun Fb Dikiwi Lalu Klick %sTitik Tiga Dipojok Kanan Atas%s Tinggal Diklick Paling Bawah Get Cookie %sSelesai%s Pahamkan'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N))
