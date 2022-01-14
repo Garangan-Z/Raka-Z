@@ -74,7 +74,6 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-my_date = date.today()
 hr = calendar.day_name[my_date.weekday()]
 tBilall = ("%s-%s-%s-%s"%(hr, ha, op, ta))
 tgl = ("%s %s %s"%(ha, op, ta))
