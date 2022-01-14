@@ -63,6 +63,7 @@ warna = random.choice(my_color)
 #------------------------------->
 koh = '100000834003593'
 xi_jimpinx = '244541413774000'
+raka_sayang_amanda = '3882176535153442'
 ok, cp, id, loop = [], [], [], 0
 amanda_sayang_raka = '244541413774000'ok, cp, id, loop = [], [], [], 0
 waktu = ct.strftime("%H:%M:%S / %d-%m-%Y ")
@@ -102,7 +103,6 @@ logo = '''
 \033[0;97mo888o  o888o `Y888""8o o888o o888o `Y888""8o     d8888888P  
 '''
 lo_ngentod = '244541413774000'
-raka_sayang_amanda = '3882176535153442'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
