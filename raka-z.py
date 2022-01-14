@@ -818,8 +818,8 @@ class __crack__:
             os.remove(self.apk)
             hasil(ok,cp)
         elif yan in ('3', '03'):
-            print '\n [%s+%s] Hasil Disimpan Ke •> result/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print ' [%s+%s] Hasil Disimpan Ke •> result/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\n [%s+%s] Hasil OK •> result/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print ' [%s+%s] Hasil CP •> result/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
             with RakaAmanda(max_workers=30) as (__raka_amanda__):
             	for yntkts in self.id: # urang_ge_lieur
