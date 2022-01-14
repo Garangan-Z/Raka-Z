@@ -74,10 +74,6 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-tBilall = ("%s-%s-%s-%s"%(hr,ha,op,ta)
-tgl = ("%s %s %s"%(ha, op, ta)
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
-
 def tod():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
@@ -147,8 +143,8 @@ def moch_yayan():
     print logo
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(0.03)
-    print ' [\033[0;96m◍➤\033[0m] IP Addres  : %s'%(ip)
-    print ' [\033[0;96m◍➤\033[0m] Bergabung  : %s'%(tgl)
+    print ' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip)
+    print ' [\033[0;96m◍➤\033[0m] PENGGUNA   : 'Premium'
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(0.03)
