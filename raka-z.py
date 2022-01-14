@@ -211,8 +211,8 @@ def raka_amanda():
         info_tools()
     elif pepek in['0','00']:
         print '\n'
-        raka_amanda()
-        time.sleep(1);os.system('rm -rf .memek.txt')
+        raka_z()
+        time.sleep(3);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s Berhasil Menghapus Token'%(N,H,N,H));exit()
     else:
         print '\n %s[%s×%s] Menu [%s%s%s] Tidak Ada, Cek Menu Nya Bro!'%(N,M,N,M,pepek,N);time.sleep(2);raka_amanda()
