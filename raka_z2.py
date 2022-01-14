@@ -116,7 +116,8 @@ def hasil(ok,cp):
 def yayanxd():
     os.system('clear')
     print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s◍➤%s Do You Already Know How To Get Facebook Token?\n %s◍➤%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] ☆TOKEN☆™︻®╤───────═◍➤ :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
+    print (' %s◍➤%s Pleace Wait ...'%(O,N))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
         print '%s *%s Copy Paste👉 %snaciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(2)
