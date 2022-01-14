@@ -84,7 +84,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-def tod():
+def raka_z():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
         print '\r %s[%s+%s] Menghapus Token %s'%(N,M,N,x),
@@ -130,7 +130,7 @@ def raka_z():
         print '\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(kontol)
+        raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(amanda)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_amanda()
     except KeyError:
@@ -212,7 +212,7 @@ def raka_amanda():
         info_tools()
     elif pepek in['0','00']:
         print '\n'
-        tod()
+        raka_z()
         time.sleep(1);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s Berhasil Menghapus Token'%(N,H,N,H));exit()
     else:
