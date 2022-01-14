@@ -134,7 +134,7 @@ def raka_z():
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_amanda()
     except KeyError:
-        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);raka_amanda()
 
 ### ORANG GANTENG ###
 def raka_amanda():
@@ -142,11 +142,11 @@ def raka_amanda():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] Tidak Ada Koneksi\n'%(N,M,N))
     os.system('clear')
@@ -169,7 +169,7 @@ def raka_amanda():
     print ' [%s0%s]\x1b[1;96m◍➤\x1b[1;97m Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [\x1b[1;96m◍➤\x1b[1;97m] Menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);raka_amanda()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -202,10 +202,10 @@ def raka_amanda():
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));raka_amanda()
         except (IOError):
             print("\n %s[%s×%s] Opshh Kamu Tidak Mendapatkan Hasil :("%(N,M,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));raka_amanda()
     elif pepek in['8','08']:
         seting_yntkts()
     elif pepek in['9','09']:
@@ -216,7 +216,7 @@ def raka_amanda():
         time.sleep(1);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s Berhasil Menghapus Token'%(N,H,N,H));exit()
     else:
-        print '\n %s[%s×%s] Menu [%s%s%s] Tidak Ada, Cek Menu Nya Bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] Menu [%s%s%s] Tidak Ada, Cek Menu Nya Bro!'%(N,M,N,M,pepek,N);time.sleep(2);raka_amanda()
 
 # croottt
 def wuhan(amanda):
