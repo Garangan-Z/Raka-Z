@@ -122,8 +122,7 @@ def raka_z():
         print '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(2)
         print '%s *%s Login Akun Fb Dikiwi Lalu Klick %sTitik Tiga Dipojok Kanan Atas%s Tinggal Diklick Paling Bawah Get Cookie %sSelesai%s Pahamkan'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N))
-        print '%s *%s Jangan Lupa Follow Fb Ku Ya BozZ '%(B,N)
-        os.system('xdg-open https://facebook.com/PEMUDA.KALEUM')
+        os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
