@@ -88,7 +88,7 @@ def raka_z():
     for x in titik:
         print '\r %s[%s+%s] Menghapus Token %s'%(N,M,N,x),
         sys.stdout.flush()
-        time.sleep(1)
+        time.sleep(3)
 
 # LO GOBLOG
 logo = ''' 
