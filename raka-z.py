@@ -116,8 +116,8 @@ def hasil(ok,cp):
 def raka_z():
     os.system('clear')
     print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s◍➤%s Do You Already Know How To Get Facebook Token?\n %s◍➤%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
-    if kontol in ('open', 'Open', 'OPEN'):
+    amanda = raw_input('\n %s[%s?%s] Login ☆TOKEN☆ :%s '%(N,M,N,H))
+    if amanda in ('open', 'Open', 'OPEN'):
         print '\n%s *%s Download Apk Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
         print '%s *%s Klick Dikolom pencarian %https://chrome.google.com/webstore/detail/get-cookie/naciaagbkifhpnoodlkhbejjldaiffcm'%(B,N,H);time.sleep(2)
         print '%s *%s Setelah Itu Klick %sTambahkan Ke Chrome Selesai'%(B,N,H);time.sleep(2)
@@ -126,10 +126,10 @@ def raka_z():
         os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         raka_z()
     try:
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
+        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
         print '\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s<>%s Please Use This Sc Properly,\n We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
-        open('.memek.txt', 'w').write(kontol)
+        open('.memek.txt', 'w').write(amanda)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(amanda)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_amanda()
@@ -140,11 +140,11 @@ def raka_z():
 def raka_amanda():
     os.system('clear')
     try:
-    	kontol = open('.memek.txt', 'r').read()
+    	amanda = open('.memek.txt', 'r').read()
     except IOError:
         print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
     try:
-        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
+        nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
     except KeyError:
         print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
     except requests.exceptions.ConnectionError:
@@ -171,17 +171,17 @@ def raka_amanda():
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);raka_amanda()
     elif pepek in['1','01']:
-        teman(kontol)
+        teman(amanda)
     elif pepek in['2','02']:
-        publik(kontol)
+        publik(amanda)
     elif pepek in['3','03']:
-        followers(kontol)
+        followers(amanda)
     elif pepek in['4','04']:
-        postingan(kontol)
+        postingan(amanda)
     elif pepek in['5','05']:
         __crack__().plerr()
     elif pepek in['6','06']:
-        cek_ingfo(kontol)
+        cek_ingfo(amanda)
     elif pepek in['7','07']:
         try:
             dirs = os.listdir("results")
