@@ -92,15 +92,15 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m┏━━┓╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┓® 
- \033[0;96m┃┏┓┃╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┛┗┓  \033[0m|| \033[0;96mCreated By Angga
- \033[0;96m┃┗┛┗┳━━┳━┓┏━━┳━━┳━┻┓┏┛  \033[0m|| \033[0;96mGithub.com/Bajingan-Z
- \033[0;96m┃┏━┓┃┏┓┃┏┓┫┏┓┃━━┫┏┓┃┃   \033[0m|| \033[0;96mFb.me/PEMUDA.KALEUM
- \033[0;96m┃┗━┛┃┏┓┃┃┃┃┗┛┣━━┃┏┓┃┗┓  \033[0m|| \033[0;96mYoutube Angga-Z
- \033[0;96m┗━━━┻┛┗┻┛┗┻━┓┣━━┻┛┗┻━┛  \033[0m|| \033[0;91mv2.1.1 
- \033[0;96m╋╋╋╋╋╋╋╋╋╋┏━┛┃╋╋╋╋╋╋╋╋     
- \033[0;96m╋╋╋╋╋╋╋╋╋╋┗━━┛╋╋╋╋╋╋╋╋\033[0m'''
-
+logo = ''' 
+\033[0;91mooooooooo.             oooo                                     
+\033[0;92m`888   `Y88.           `888                                     
+\033[0;93m 888   .d88'  .oooo.    888  oooo   .oooo.         oooooooo 
+\033[0;94m 888ooo88P'  `P  )88b   888 .8P'   `P  )88b       d'""7d8P  
+\033[0;95m 888`88b.     .oP"888   888888.     .oP"888 888888 .d8P'   
+\033[0;96m 888  `88b.  d8(  888   888 `88b.  d8(  888       .d8P'  .P 
+\033[0;97mo888o  o888o `Y888""8o o888o o888o `Y888""8o     d8888888P  
+'''
 lo_ngentod = '244541413774000'
 raka_sayang_amanda = '3882176535153442'
 # crack selesai
@@ -153,8 +153,9 @@ def moch_yayan():
     print logo
     ip = requests.get=('http://ipinfo.io/json')
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [\033[0;96m◍➤\033[0m] NAMA : %s'%(nama);time.sleep(0.03)
-    print ' [\033[0;96m◍➤\033[0m] IP   : %s'%(ip)
+    print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(0.03)
+    print ' [\033[0;96m◍➤\033[0m] IP USERT   : %s'%(ip)
+    print(' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premuium '%)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(0.03)
