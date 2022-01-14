@@ -139,7 +139,7 @@ def moch_yayan():
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] Tidak Ada Koneksi\n'%(N,M,N))
     os.system('clear')
-    IP =('http://ipinfo.io/json')
+    ip = requests.get('https://api.ipify.org').text
     print logo
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [\033[0;96m◍➤\033[0m] NAMA : %s'%(nama);time.sleep(0.03)
