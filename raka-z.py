@@ -144,7 +144,7 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama);time.sleep(0.03)
     print ' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip)
-    print ' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium'%(free)
+    print(' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium ')
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(0.03)
