@@ -154,7 +154,7 @@ def raka_amanda():
     print '___________________________________________________________\n'
     print ' [\033[0;96m◍➤\033[0m] NAMA       : %s'%(nama)
     print ' [\033[0;96m◍➤\033[0m] IP ADDRES  : %s'%(ip)
-    print ' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium ')
+    print(' [\033[0;96m◍➤\033[0m] PENGGUNA   : Premium')
     print '___________________________________________________________\n'
     print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N)
     print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N)
