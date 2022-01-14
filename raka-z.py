@@ -82,7 +82,7 @@ def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.03)
+        time.sleep(3)
 
 def raka_z():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
@@ -134,7 +134,7 @@ def raka_z():
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         raka_amanda()
     except KeyError:
-        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);raka_amanda()
+        print '\n\n %s[%s!%s] Token Invalid'%(N,M,N);time.sleep(2);raka_z()
 
 ### ORANG GANTENG ###
 def raka_amanda():
@@ -142,11 +142,11 @@ def raka_amanda():
     try:
     	amanda = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(amanda)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_amanda()
+        print '\n %s[%s×%s] Token Invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');raka_z()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] Tidak Ada Koneksi\n'%(N,M,N))
     os.system('clear')
