@@ -27,7 +27,7 @@ except ImportError:
     os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
-from concurrent.futures import ThreadPoolExecutor as YayanGanteng
+from concurrent.futures import ThreadPoolExecutor as RakaAmanda
 from datetime import datetime
 from bs4 import BeautifulSoup
 ct = datetime.now()
